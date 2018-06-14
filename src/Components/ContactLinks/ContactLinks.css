@@ -1,0 +1,18 @@
+.ContactLink {
+  list-style-type: none;
+  position: relative;
+  position: relative;
+  top: -20px;
+  padding-left: 2px;
+}
+
+.Icon {
+  position: relative;
+  font-size: 35px !important;
+  margin: 0 10px 10px 0;
+  top: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}

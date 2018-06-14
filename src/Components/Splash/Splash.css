@@ -1,0 +1,37 @@
+.Splash {
+  padding-top: 16px;
+  margin-top: .5px;
+  background-color: #f5f8fa;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.Splash h1 {
+  margin-bottom: 0px;
+}
+
+.Splash p {
+  margin-top: 7.5px;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.ImageContainer {
+  border-radius: 50%;
+  border: 2px solid #111;
+  width: 197px;
+  height: 212px;
+  padding: 5px;
+  background-color: white
+}
+
+.TextContainer {
+  text-align: center;
+}

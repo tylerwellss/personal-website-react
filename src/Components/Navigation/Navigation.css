@@ -1,0 +1,25 @@
+.Toolbar {
+  background-color: white;
+  color: #2e2e2e;
+  display: flex;
+  z-index: 1;
+  box-shadow: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.FlexSpacer {
+  flex: 1;
+}
+
+.Link {
+  text-decoration: none;
+  color: #2e2e2e;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.Active {
+  color: #0074D9
+}
