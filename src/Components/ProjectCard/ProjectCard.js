@@ -20,12 +20,8 @@ const ProjectCard = (props) => {
           <strong>Tech Used: </strong>{props.techUsed}
         </p>
         <br/>
-        <a target="_blank" href={props.codeLink}>
-          Code
-        </a>
-        <a target="_blank" href={props.liveLink}>
-          Live
-        </a>
+        {props.codeLink ? <a target="_blank" href={props.codeLink}><strong>Code</strong></a> : null}
+        {props.liveLink ? <a target="_blank" href={props.liveLink}><strong>Live</strong></a> : null}
       </CardContent>
       </Card>
     </div>

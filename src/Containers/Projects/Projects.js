@@ -1,28 +1,23 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import ProjectCard from '../../Components/ProjectCard/ProjectCard';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import * as projectsData from './ProjectsData.json'
 
 class Projects extends Component {
   state = {
-    projects: {
-      'URL-Shortener': {
-        title: 'URL Shortener',
-        desc: 'Input a long URL and receive a short URL to use instead. Sign in to save your shortened URLs.',
-        techUsed: 'React, MongoDB, Firebase, NodeJS, Express',
-        codeLink: 'http://www.github.com/wellstyler/url-shortener',
-        liveLink: 'http://www.google.com',
-        imageUrl: 'http://res.cloudinary.com/asdfbot/image/upload/c_scale,w_345/v1486185196/tzzxgifevdjecihkka2q.jpg',
-        imageAltText: 'URL Shortener Website Preview'
-      }
-    }
+    projects: []
+  }
+
+  componentDidMount() {
+    this.setState({projects: projectsData})
   }
 
   render() {
-    return (
+    let projects = (
       Object.keys(this.state.projects).map((key, index) => {
         const project = this.state.projects[key]
         return (
-          <div className="Projects">
+        <div>
           <ProjectCard 
             title={project.title} 
             desc={project.desc}
@@ -35,6 +30,11 @@ class Projects extends Component {
           </div>
         )
       })
+    )
+    return (
+      <div className="Projects">
+        {projects}
+      </div>
     )
   }
 }

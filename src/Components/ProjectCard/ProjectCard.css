@@ -2,16 +2,19 @@
   max-width: 345px;
   width: 345px;
   margin: 20px;
+  border-radius: 10px;
 }
 
 .Card p {
   line-height: 1.5rem;
   letter-spacing: .01rem;
   margin: 0;
+  font-size: .9em;
 }
 
 .Card h2 {
   margin: 0 0 10px 0;
+  font-size: 1.25em;
 }
 
 .Card a {
@@ -26,4 +29,6 @@
 
 .Media {
   border-radius: 0px;
+  width: 345px;
+  height: 237px;
 }

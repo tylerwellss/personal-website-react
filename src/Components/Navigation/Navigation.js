@@ -3,7 +3,7 @@ import './Navigation.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { NavLink } from 'react-router-dom';
-import * as routes from '../../Constants/routes'
+import * as routes from '../../constants/routes'
 
 const navigation = () => {
   return (
