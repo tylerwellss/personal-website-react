@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import * as routes from '../../constants/routes';
+import * as routes from '../../Constants/routes';
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {

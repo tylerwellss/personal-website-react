@@ -45,7 +45,7 @@
     "title": "Web Scraper",
     "desc": "A sample web scraper. Scrape a job ad from my website and automate inputting that data to editpad.org.",
     "techUsed": "Headless Chrome, Puppeteer, Optimist, NodeJS",
-    "codeLink": "https://github.com/wellstyler/hyperledger-starter",
+    "codeLink": "https://github.com/wellstyler/nodejs-puppeteer-web-scrape",
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530174394/preview-web-scraper_qhloo9.png",
     "imageAltText": "Web Scraper Repository Preview"
   },

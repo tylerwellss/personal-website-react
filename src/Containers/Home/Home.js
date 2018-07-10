@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Splash from '../../components/Splash/Splash';
-import AboutMe from '../../components/AboutMe/AboutMe';
-import ContactLinks from '../../components/ContactLinks/ContactLinks';
+import Splash from '../../Components/Splash/Splash';
+import AboutMe from '../../Components/AboutMe/AboutMe';
+import ContactLinks from '../../Components/ContactLinks/ContactLinks';
 import './Home.css'
 
 class Home extends Component {

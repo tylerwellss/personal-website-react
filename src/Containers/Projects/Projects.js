@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import ProjectCard from '../../Components/ProjectCard/ProjectCard';
 import * as projectsData from './ProjectsData.json'
 
 class Projects extends Component {
