@@ -4,7 +4,7 @@ import { GithubBox, LinkedinBox, FacebookBox, Email } from 'mdi-material-ui'
 
 const ContactLinks = () => {
   return (
-    <div>
+    <div className="ContactLinksContainer">
       <h2>Contact</h2>
       <ul className="ContactLink">
         <li><GithubBox className="Icon"/>

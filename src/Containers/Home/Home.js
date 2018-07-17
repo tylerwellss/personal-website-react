@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div>
         <Splash />
-        <div style={{'display':'flex'}}>
+        <div className="FlexRow">
           <div className="Spacer"></div>
           <AboutMe className="AboutMe"/>
           <ContactLinks className="ContactLinks"/>

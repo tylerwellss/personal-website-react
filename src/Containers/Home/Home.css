@@ -17,3 +17,17 @@
 .Spacer {
   flex: 1;
 }
+
+.FlexRow {
+  display: flex;
+}
+
+@media (max-width: 500px) { 
+  .FlexRow {
+    display: block;
+  }
+  .ContactLinks, .AboutMe {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

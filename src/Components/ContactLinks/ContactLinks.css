@@ -1,7 +1,6 @@
 .ContactLink {
   list-style-type: none;
   position: relative;
-  position: relative;
   top: -20px;
   padding-left: 2px;
 }
@@ -15,4 +14,8 @@
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+}
+
+.ContactLinksContainer {
+  margin-left: 5%;
 }
