@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "http://therealtylerwells.github.io/personal-website",
+  "homepage": "http://therealtylerwells.github.io/personal-website-react",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.2.1",
