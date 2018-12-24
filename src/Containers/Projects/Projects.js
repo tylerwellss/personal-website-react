@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import ProjectCard from '../../Components/ProjectCard/ProjectCard';
-import * as projectsData from './ProjectsData.json'
+import ProjectsData from '../Projects/ProjectsData';
 
 class Projects extends Component {
   state = {
@@ -9,7 +9,7 @@ class Projects extends Component {
   }
 
   componentDidMount() {
-    this.setState({projects: projectsData})
+    this.setState({projects: ProjectsData})
   }
 
   render() {
