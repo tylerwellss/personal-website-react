@@ -8,7 +8,7 @@ const ContactLinks = () => {
       <h2>Contact</h2>
       <ul className="ContactLink">
         <li><GithubBox className="Icon"/>
-          <a rel="noopener noreferrer" href="https://www.github.com/wellstyler" target="_blank">Github</a>
+          <a rel="noopener noreferrer" href="https://www.github.com/therealtylerwells" target="_blank">Github</a>
         </li>
         <li><LinkedinBox className="Icon"/>
           <a rel="noopener noreferrer" href="https://www.linkedin.com/in/tyler-s-wells/" target="_blank">LinkedIn</a>
