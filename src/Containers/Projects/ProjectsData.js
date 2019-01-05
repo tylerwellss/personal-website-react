@@ -1,29 +1,21 @@
 const ProjectsData = {
-  "ESL Bot": {
-    "title": "ESL Bot",
-    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
-    "techUsed": "Angular, MongoDB, NodeJS, Express, Someting Else...",
+  "ESL Bot Aggregator": {
+    "title": "ESL Bot Aggregator",
+    "desc": "Crawls several websites for ESL jobs, posts them to a database, and aggregates them in a searchable UI.",
+    "techUsed": "NodeJS, React, MongoDB, NodeBB, Netlify",
     "liveLink": "https://www.eslbot.com",
+    "codeLink": "https://github.com/therealtylerwells/jobs-aggregator-ui",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/c_scale,h_237,w_345/v1546673781/Screenshot_from_2019-01-05_15-35-01_ozj9on.png",
+    "imageAltText": "ESL Bot Aggregator Website Preview"
+  },
+  "ESL Bot": {
+    "title": "ESL Bot (old)",
+    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
+    "techUsed": "Angular, MongoDB, NodeJS, Express, NodeBB",
+    "liveLink": "https://old.eslbot.com",
+    "codeLink": "https://github.com/therealtylerwells/universal-eslbot",
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
-    "imageAltText": "ESL Bot Website Preview"
-  },
-  "URL-Shortener": {
-    "title": "URL Shortener",
-    "desc": "Input a long URL and receive a short URL to use instead. Sign in to save your shortened URLs.",
-    "techUsed": "React, MongoDB, Firebase, NodeJS, Express",
-    "codeLink": "http://www.github.com/therealtylerwells/url-shortener",
-    "liveLink": "https://url-shortener-123456789.firebaseapp.com/",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-url-shortener_lyucxf.png",
-    "imageAltText": "URL Shortener Website Preview"
-  },
-  "Crypto Tracker": {
-    "title": "Crypto Tracker",
-    "desc": "Track your cryptocurrency losses. Sign in, save/update your portfolio, and check current prices.",
-    "techUsed": "React, React Redux, Redux Thunk, MongoDB, Firebase, NodeJS, Express",
-    "codeLink": "https://github.com/therealtylerwells/crypto-tracker",
-    "liveLink": "https://track-my-crypto.firebaseapp.com/",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-crypto-tracker_ggjs0o.png",
-    "imageAltText": "URL Shortener Website Preview"
+    "imageAltText": "Old ESL Bot Website Preview"
   },
   "Reddit Bot": {
     "title": "Reddit Translation Bot",
@@ -34,12 +26,29 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1531813640/preview_reddit_bot_boucnq.png",
     "imageAltText": "Reddit Bot Project Preview"
   },
+  "Crypto Tracker": {
+    "title": "Crypto Tracker",
+    "desc": "Track your cryptocurrency losses. Sign in, save/update your portfolio, and check current prices.",
+    "techUsed": "React, React Redux, Redux Thunk, MongoDB, Firebase, NodeJS, Express",
+    "codeLink": "https://github.com/therealtylerwells/crypto-tracker",
+    "liveLink": "https://track-my-crypto.firebaseapp.com/",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-crypto-tracker_ggjs0o.png",
+    "imageAltText": "Crypto tracker Website Preview"
+  },
   "Hyperledger Starter": {
     "title": "Hyperledger Starter",
     "desc": "Starter repo for blockchain projects w/ Hyperledger Fabric, Composer, and Explorer.",
     "techUsed": "Hyperledger Fabric, Hyperledger Composer, Hyperledger Explorer",
     "codeLink": "https://github.com/therealtylerwells/hyperledger-starter",
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530173438/preview-hyperledger-starter_an6dey.png",
+    "imageAltText": "Hyperledger Starter Repository Preview"
+  },
+  "Hyperledger Guestbook": {
+    "title": "Hyperledger Guestbook",
+    "desc": "A guestbook that saves entries on a blockchain. Utilizes my Hyperledger Starter repo.",
+    "techUsed": "Hyperledger Fabric, Hyperledger Composer, Hyperledger Explorer",
+    "codeLink": "https://github.com/therealtylerwells/hyperledger-guestbook",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/c_scale,h_237,w_345/v1546674284/Screenshot_from_2019-01-05_15-44-18_bsqodp.png",
     "imageAltText": "Hyperledger Starter Repository Preview"
   },
   "Web Crawler": {
@@ -50,6 +59,15 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530174394/preview-web-scraper_qhloo9.png",
     "imageAltText": "Web Scraper Repository Preview"
   },
+  "URL-Shortener": {
+    "title": "URL Shortener",
+    "desc": "Input a long URL and receive a short URL to use instead. Sign in to save your shortened URLs.",
+    "techUsed": "React, MongoDB, Firebase, NodeJS, Express",
+    "codeLink": "http://www.github.com/therealtylerwells/url-shortener",
+    "liveLink": "https://url-shortener-123456789.firebaseapp.com/",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-url-shortener_lyucxf.png",
+    "imageAltText": "URL Shortener Website Preview"
+  },
   "Personal Website": {
     "title": "Personal Website",
     "desc": "The website you're looking at. Made with React, styled with Material-UI, hosted on Github Pages.",
@@ -59,15 +77,14 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530174960/preview-personal-website_pkakut.png",
     "imageAltText": "Personal Website Preview"
   },
-  "React Burger": {
-    "title": "Burger Builder",
-    "desc": "A demo to build a burger, order it, and view your previous orders. From Udemy tutorial.",
-    "techUsed": "React, React Redux, Redux Thunk, Firebase, Udemy",
-    "liveLink": "https://react-my-burger-d192e.firebaseapp.com/",
-    "codeLink": "https://github.com/therealtylerwells/react-burger-builder",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530174960/preview-burger-builder_xkngmq.png",
-    "imageAltText": "React Burger Builder Website Preview"
-  }
+  "Eluruum": {
+    "title": "International Real Estate",
+    "desc": "(a work in progress) Post, search, and browse international real estate listings. Translate to many lanauges.",
+    "techUsed": "Next.JS (React), NodeJS, MongoDB, JSON Web Server",
+    "codeLink": "https://github.com/therealtylerwells/eluruum",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1546675150/Screenshot_from_2019-01-05_15-58-54_l5adpu.png",
+    "imageAltText": "Eluruum preview"
+  },
 }
 
 export default ProjectsData;
