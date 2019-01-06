@@ -8,15 +8,6 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/c_scale,h_237,w_345/v1546673781/Screenshot_from_2019-01-05_15-35-01_ozj9on.png",
     "imageAltText": "ESL Bot Aggregator Website Preview"
   },
-  "ESL Bot": {
-    "title": "ESL Bot (old)",
-    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
-    "techUsed": "Angular, MongoDB, NodeJS, Express, NodeBB",
-    "liveLink": "https://old.eslbot.com",
-    "codeLink": "https://github.com/therealtylerwells/universal-eslbot",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
-    "imageAltText": "Old ESL Bot Website Preview"
-  },
   "Reddit Bot": {
     "title": "Reddit Translation Bot",
     "desc": "A Reddit bot that translates Chinese to English and generates Pinyin in Chinese-focused subreddits",
@@ -59,15 +50,6 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530174394/preview-web-scraper_qhloo9.png",
     "imageAltText": "Web Scraper Repository Preview"
   },
-  "URL-Shortener": {
-    "title": "URL Shortener",
-    "desc": "Input a long URL and receive a short URL to use instead. Sign in to save your shortened URLs.",
-    "techUsed": "React, MongoDB, Firebase, NodeJS, Express",
-    "codeLink": "http://www.github.com/therealtylerwells/url-shortener",
-    "liveLink": "https://url-shortener-123456789.firebaseapp.com/",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-url-shortener_lyucxf.png",
-    "imageAltText": "URL Shortener Website Preview"
-  },
   "Personal Website": {
     "title": "Personal Website",
     "desc": "The website you're looking at. Made with React, styled with Material-UI, hosted on Github Pages.",
@@ -84,6 +66,15 @@ const ProjectsData = {
     "codeLink": "https://github.com/therealtylerwells/eluruum",
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1546675150/Screenshot_from_2019-01-05_15-58-54_l5adpu.png",
     "imageAltText": "Eluruum preview"
+  },
+  "ESL Bot": {
+    "title": "ESL Bot (old, broken)",
+    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
+    "techUsed": "Angular, MongoDB, NodeJS, Express, NodeBB",
+    "liveLink": "https://old.eslbot.com",
+    "codeLink": "https://github.com/therealtylerwells/universal-eslbot",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
+    "imageAltText": "Old ESL Bot Website Preview"
   },
 }
 
