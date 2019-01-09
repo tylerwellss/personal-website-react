@@ -8,6 +8,15 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/c_scale,h_237,w_345/v1546673781/Screenshot_from_2019-01-05_15-35-01_ozj9on.png",
     "imageAltText": "ESL Bot Aggregator Website Preview"
   },
+  "(old)ESL Bot": {
+    "title": "(old) ESL Bot",
+    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
+    "techUsed": "Angular, MongoDB, NodeJS, Express, NodeBB",
+    "liveLink": "https://old.eslbot.com",
+    "codeLink": "https://github.com/therealtylerwells/universal-eslbot",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
+    "imageAltText": "Old ESL Bot Website Preview"
+  },
   "Reddit Bot": {
     "title": "Reddit Translation Bot",
     "desc": "A Reddit bot that translates Chinese to English and generates Pinyin in Chinese-focused subreddits",
@@ -66,15 +75,6 @@ const ProjectsData = {
     "codeLink": "https://github.com/therealtylerwells/eluruum",
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1546675150/Screenshot_from_2019-01-05_15-58-54_l5adpu.png",
     "imageAltText": "Eluruum preview"
-  },
-  "ESL Bot": {
-    "title": "ESL Bot (old, broken)",
-    "desc": "Search, post, and apply for English teaching jobs worldwide. Enjoy discussions in the forums.",
-    "techUsed": "Angular, MongoDB, NodeJS, Express, NodeBB",
-    "liveLink": "https://old.eslbot.com",
-    "codeLink": "https://github.com/therealtylerwells/universal-eslbot",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
-    "imageAltText": "Old ESL Bot Website Preview"
   },
 }
 
