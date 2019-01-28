@@ -8,6 +8,15 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/c_scale,h_237,w_345/v1546673781/Screenshot_from_2019-01-05_15-35-01_ozj9on.png",
     "imageAltText": "ESL Bot Aggregator Website Preview"
   },
+  "React Mobile Aggregator": {
+    "title": "ESL Bot (mobile)",
+    "desc": "A light-weight React Native UI for my ESL Bot jobs aggregator. Has the same minimal features as the web portal.",
+    "techUsed": "NodeJS, React, React Native, MongoDB, Expo",
+    "liveLink": "https://expo.io/@tyler.wells/eslbot",
+    "codeLink": "https://github.com/therealtylerwells/jobs-aggregator-mobile",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1548690840/react-native_pdqapt.png",
+    "imageAltText": "ESL Bot Aggregator Website Preview"
+  },
   "Reddit Bot": {
     "title": "Reddit Translation Bot",
     "desc": "A Reddit bot that translates Chinese to English and generates Pinyin in Chinese-focused subreddits",
