@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage":".",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.2.1",
@@ -9,6 +9,7 @@
     "mdi-material-ui": "^5.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-pose": "^4.0.6",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },

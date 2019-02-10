@@ -26,15 +26,6 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1531813640/preview_reddit_bot_boucnq.png",
     "imageAltText": "Reddit Bot Project Preview"
   },
-  "Crypto Tracker": {
-    "title": "Crypto Tracker",
-    "desc": "Track your cryptocurrency losses. Sign in, save/update your portfolio, and check current prices.",
-    "techUsed": "React, React Redux, Redux Thunk, MongoDB, Firebase, NodeJS, Express",
-    "codeLink": "https://github.com/therealtylerwells/crypto-tracker",
-    "liveLink": "https://track-my-crypto.firebaseapp.com/",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-crypto-tracker_ggjs0o.png",
-    "imageAltText": "Crypto tracker Website Preview"
-  },
   "Hyperledger Starter": {
     "title": "Hyperledger Starter",
     "desc": "Starter repo for blockchain projects w/ Hyperledger Fabric, Composer, and Explorer.",
@@ -77,13 +68,14 @@ const ProjectsData = {
     "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-eslbot_yyni6s.png",
     "imageAltText": "Old ESL Bot Website Preview"
   },
-  "Eluruum": {
-    "title": "International Real Estate",
-    "desc": "(a work in progress) Post, search, and browse international real estate listings. Translate to many lanauges.",
-    "techUsed": "Next.JS (React), NodeJS, MongoDB, JSON Web Server",
-    "codeLink": "https://github.com/therealtylerwells/eluruum",
-    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1546675150/Screenshot_from_2019-01-05_15-58-54_l5adpu.png",
-    "imageAltText": "Eluruum preview"
+  "Crypto Tracker": {
+    "title": "Crypto Tracker",
+    "desc": "Track your cryptocurrency losses. Sign in, save/update your portfolio, and check current prices.",
+    "techUsed": "React, React Redux, Redux Thunk, MongoDB, Firebase, NodeJS, Express",
+    "codeLink": "https://github.com/therealtylerwells/crypto-tracker",
+    "liveLink": "https://track-my-crypto.firebaseapp.com/",
+    "imageUrl": "https://res.cloudinary.com/asdfbot/image/upload/v1530170970/preview-crypto-tracker_ggjs0o.png",
+    "imageAltText": "Crypto tracker Website Preview"
   },
 }
 
