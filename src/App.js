@@ -10,6 +10,7 @@ import Projects from './Containers/Projects/Projects';
 class App extends Component {
   render() {
     return (
+      /**
       <Router>
         <div>
           <Navigation />
@@ -18,9 +19,10 @@ class App extends Component {
           <Route path={routes.PROJECTS}
             component={() => <Projects />}
           />
-          {/* <Footer /> */}
         </div>
       </Router>
+      **/
+      <p>What are you doing here? If you need to contact me, you can: tyler.wellss at gmail dot com</p>
     );
   }
 }
